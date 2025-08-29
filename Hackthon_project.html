@@ -119,7 +119,7 @@
     <option value="riverside">Rajahmundry</option>
     <option value="mountains">Peddapuram</option>
     <option value="villages">Samarlakota</option>
-    <!-- 👉 add more locations as needed -->
+    
   </select>
   <button onclick="filterCards()">Search</button>
 </div>
@@ -200,7 +200,7 @@ const cardDetails = {
     <p>Wake up to home-cooked breakfasts, scenic views, and the calming sounds of nature just outside your window.</p>
     <p>This homestay is perfect for travelers seeking peace, relaxation, and authentic local experiences.</p>
   `
-  // 👉 Add more cards here in the same way
+ 
 };
 
 function openDetails(title, imgUrl, description) {
@@ -215,7 +215,7 @@ function openDetails(title, imgUrl, description) {
     });
   }
 
-  // Use detailed description if available
+  
   let extraContent = cardDetails[title] 
     ? cardDetails[title] 
     : `<p><em>More details about ${title} will be added soon...</em></p>`;
@@ -249,3 +249,4 @@ function openDetails(title, imgUrl, description) {
 </script>
 </body>
 </html>
+
